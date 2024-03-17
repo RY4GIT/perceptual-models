@@ -1,0 +1,1587 @@
+{
+    "version": 51,
+    "authoringApp": "ArcGIS Dashboards",
+    "authoringAppVersion": "4.24.0+20bf311005",
+    "header": {
+        "backgroundColor": "#d8e7f0",
+        "selectors": [],
+        "type": "header",
+        "title": "Perceptual Models Around the World",
+        "subtitle": "McMillan Hydrology Lab",
+        "subtitlePlacement": "sameLine",
+        "logoImageURL": null,
+        "logoURL": null,
+        "logoSize": "small",
+        "showMargin": true,
+        "backgroundImageSizing": "fit-height",
+        "normalBackgroundImagePlacement": "left",
+        "horizontalBackgroundImagePlacement": "top",
+        "showSignOutMenu": true,
+        "menuLinks": [
+            {
+                "key": "Check Process Taxonomy Diagram",
+                "link": "https://mcmillanhydrology.org/ProcessTaxonomy/ProcessTaxonomyDiagram.html"
+            },
+            {
+                "key": "Visit Hilary McMillan's website (Lab PI)",
+                "link": "http://www.mcmillanhydrology.org/"
+            },
+            {
+                "key": "Visit Ryoko Araki's website (Developer/Ph.D. student)",
+                "link": "http://labusers.net/~raraki/"
+            }
+        ]
+    },
+    "sidebar": {
+        "selectors": [
+            {
+                "id": "ba3722ef-d8cb-46a6-a841-02d8e73d5cf2",
+                "name": "Selector (process hashtags)",
+                "caption": "Filter by processes",
+                "showLastUpdate": false,
+                "noDataState": {
+                    "text": "",
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "noFilterState": {
+                    "text": "",
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "events": [
+                    {
+                        "type": "selectionChanged",
+                        "actions": [
+                            {
+                                "targets": [
+                                    {
+                                        "targetId": "abb9e1bc-261c-4a01-aae3-4b992169552b#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0#91312012882",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "5c7d375d-5c59-473f-aa94-ffe60077891e#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    }
+                                ],
+                                "type": "filter"
+                            }
+                        ]
+                    }
+                ],
+                "presentationMode": "dropdown",
+                "placeholderText": "Using hashtags/identifiers",
+                "showActionButtons": true,
+                "datasets": [
+                    {
+                        "type": "serviceDataset",
+                        "name": "main",
+                        "dataSource": {
+                            "type": "layerDataSource",
+                            "layerId": "91312012882",
+                            "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                        },
+                        "groupByFields": [],
+                        "orderByFields": [],
+                        "statisticDefinitions": [],
+                        "maxFeatures": 9999,
+                        "clientSideStatistics": false,
+                        "outFields": [
+                            "*"
+                        ],
+                        "returnDistinctValues": false,
+                        "allowSourceDownload": false,
+                        "allowSummaryDownload": false
+                    }
+                ],
+                "type": "categorySelectorWidget",
+                "category": {
+                    "type": "features",
+                    "itemText": "[Store] {store_id_list}; [Flux] {flux_id_list}"
+                },
+                "selection": {
+                    "operator": "is_in",
+                    "allowNone": false,
+                    "noneLabelPlacement": "first",
+                    "type": "multiple"
+                },
+                "displayType": "list",
+                "showFilter": true,
+                "maxSize": "compact"
+            },
+            {
+                "id": "2f882534-88a5-468b-8ae8-293497062618",
+                "name": "Selector (process names)",
+                "caption": " ",
+                "showLastUpdate": false,
+                "noDataState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "noFilterState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "events": [
+                    {
+                        "type": "selectionChanged",
+                        "actions": [
+                            {
+                                "targets": [
+                                    {
+                                        "targetId": "abb9e1bc-261c-4a01-aae3-4b992169552b#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "5c7d375d-5c59-473f-aa94-ffe60077891e#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0#91312012882",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    }
+                                ],
+                                "type": "filter"
+                            }
+                        ]
+                    }
+                ],
+                "presentationMode": "dropdown",
+                "placeholderText": "Using descriptive names",
+                "showActionButtons": true,
+                "datasets": [
+                    {
+                        "type": "serviceDataset",
+                        "name": "main",
+                        "dataSource": {
+                            "type": "layerDataSource",
+                            "layerId": "91312012882",
+                            "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                        },
+                        "groupByFields": [],
+                        "orderByFields": [],
+                        "statisticDefinitions": [],
+                        "maxFeatures": 9999,
+                        "clientSideStatistics": false,
+                        "outFields": [
+                            "*"
+                        ],
+                        "returnDistinctValues": false,
+                        "allowSourceDownload": false,
+                        "allowSummaryDownload": false
+                    }
+                ],
+                "type": "categorySelectorWidget",
+                "category": {
+                    "type": "features",
+                    "itemText": "[Store] {store_list}; [Flux] {flux_list}"
+                },
+                "selection": {
+                    "operator": "is_in",
+                    "allowNone": true,
+                    "noneLabelPlacement": "first",
+                    "type": "multiple"
+                },
+                "displayType": "list",
+                "showFilter": true,
+                "maxSize": "extended"
+            },
+            {
+                "id": "051afbcd-7f5b-42b9-810c-25de7c0da06e",
+                "name": "Selector (spatial properties)",
+                "caption": "Filter by spatio-temporal properties",
+                "showLastUpdate": false,
+                "noDataState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "noFilterState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "events": [
+                    {
+                        "type": "selectionChanged",
+                        "actions": [
+                            {
+                                "targets": [
+                                    {
+                                        "targetId": "abb9e1bc-261c-4a01-aae3-4b992169552b#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "5c7d375d-5c59-473f-aa94-ffe60077891e#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0#91312012882",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    }
+                                ],
+                                "type": "filter"
+                            }
+                        ]
+                    }
+                ],
+                "presentationMode": "dropdown",
+                "placeholderText": "Spatial",
+                "showActionButtons": true,
+                "datasets": [
+                    {
+                        "type": "serviceDataset",
+                        "name": "main",
+                        "dataSource": {
+                            "type": "layerDataSource",
+                            "layerId": "91312012882",
+                            "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                        },
+                        "filter": {
+                            "type": "filterGroup",
+                            "condition": "OR",
+                            "rules": [
+                                {
+                                    "type": "filterGroup",
+                                    "condition": "AND",
+                                    "rules": [
+                                        {
+                                            "type": "filterRule",
+                                            "field": {
+                                                "name": "spatial_property",
+                                                "type": "string"
+                                            },
+                                            "operator": "not_equal",
+                                            "constraint": {
+                                                "type": "value",
+                                                "value": "N"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "groupByFields": [
+                            "spatial_property"
+                        ],
+                        "orderByFields": [
+                            "spatial_property ASC"
+                        ],
+                        "statisticDefinitions": [
+                            {
+                                "onStatisticField": "spatial_property",
+                                "outStatisticFieldName": "count_result",
+                                "statisticType": "count"
+                            }
+                        ],
+                        "maxFeatures": 9999,
+                        "clientSideStatistics": false,
+                        "outFields": [
+                            "*"
+                        ],
+                        "returnDistinctValues": false,
+                        "allowSourceDownload": false,
+                        "allowSummaryDownload": false
+                    }
+                ],
+                "type": "categorySelectorWidget",
+                "category": {
+                    "type": "groupByValues",
+                    "labelOverrides": []
+                },
+                "selection": {
+                    "operator": "is_in",
+                    "allowNone": true,
+                    "noneLabelPlacement": "first",
+                    "type": "multiple"
+                },
+                "displayType": "list",
+                "showFilter": false,
+                "maxSize": "compact"
+            },
+            {
+                "id": "239a822a-2f4c-4e6f-a3b6-e275e306b019",
+                "name": "Selector (temporal properties)",
+                "caption": " ",
+                "showLastUpdate": false,
+                "noDataState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "noFilterState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "events": [
+                    {
+                        "type": "selectionChanged",
+                        "actions": [
+                            {
+                                "targets": [
+                                    {
+                                        "targetId": "abb9e1bc-261c-4a01-aae3-4b992169552b#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "5c7d375d-5c59-473f-aa94-ffe60077891e#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0#91312012882",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    }
+                                ],
+                                "type": "filter"
+                            }
+                        ]
+                    }
+                ],
+                "presentationMode": "dropdown",
+                "placeholderText": "Temporal",
+                "showActionButtons": true,
+                "datasets": [
+                    {
+                        "type": "serviceDataset",
+                        "name": "main",
+                        "dataSource": {
+                            "type": "layerDataSource",
+                            "layerId": "91312012882",
+                            "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                        },
+                        "filter": {
+                            "type": "filterGroup",
+                            "condition": "OR",
+                            "rules": [
+                                {
+                                    "type": "filterGroup",
+                                    "condition": "AND",
+                                    "rules": [
+                                        {
+                                            "type": "filterRule",
+                                            "field": {
+                                                "name": "temporal_property",
+                                                "type": "string"
+                                            },
+                                            "operator": "not_equal",
+                                            "constraint": {
+                                                "type": "value",
+                                                "value": "N"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "groupByFields": [
+                            "temporal_property"
+                        ],
+                        "orderByFields": [
+                            "temporal_property ASC"
+                        ],
+                        "statisticDefinitions": [
+                            {
+                                "onStatisticField": "temporal_property",
+                                "outStatisticFieldName": "count_result",
+                                "statisticType": "count"
+                            }
+                        ],
+                        "maxFeatures": 9999,
+                        "clientSideStatistics": false,
+                        "outFields": [
+                            "*"
+                        ],
+                        "returnDistinctValues": false,
+                        "allowSourceDownload": false,
+                        "allowSummaryDownload": false
+                    }
+                ],
+                "type": "categorySelectorWidget",
+                "category": {
+                    "type": "groupByValues",
+                    "labelOverrides": []
+                },
+                "selection": {
+                    "operator": "is_in",
+                    "allowNone": true,
+                    "noneLabelPlacement": "first",
+                    "type": "multiple"
+                },
+                "displayType": "list",
+                "showFilter": false,
+                "maxSize": "compact"
+            },
+            {
+                "id": "7c1c0b56-a894-4487-841a-de2927fe6ead",
+                "name": "Selector (Vegetation)",
+                "caption": "Filter by watershed features",
+                "showLastUpdate": false,
+                "noDataState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "noFilterState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "events": [
+                    {
+                        "type": "selectionChanged",
+                        "actions": [
+                            {
+                                "targets": [
+                                    {
+                                        "targetId": "abb9e1bc-261c-4a01-aae3-4b992169552b#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "5c7d375d-5c59-473f-aa94-ffe60077891e#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0#91312012882",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    }
+                                ],
+                                "type": "filter"
+                            }
+                        ]
+                    }
+                ],
+                "presentationMode": "dropdown",
+                "placeholderText": "Vegetation",
+                "showActionButtons": true,
+                "datasets": [
+                    {
+                        "type": "serviceDataset",
+                        "name": "main",
+                        "dataSource": {
+                            "type": "layerDataSource",
+                            "layerId": "91312012882",
+                            "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                        },
+                        "filter": {
+                            "type": "filterGroup",
+                            "condition": "OR",
+                            "rules": [
+                                {
+                                    "type": "filterGroup",
+                                    "condition": "AND",
+                                    "rules": [
+                                        {
+                                            "type": "filterRule",
+                                            "field": {
+                                                "name": "vegetation_info",
+                                                "type": "string"
+                                            },
+                                            "operator": "not_equal",
+                                            "constraint": {
+                                                "type": "value",
+                                                "value": "N"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "groupByFields": [
+                            "vegetation_info"
+                        ],
+                        "orderByFields": [
+                            "vegetation_info ASC"
+                        ],
+                        "statisticDefinitions": [
+                            {
+                                "onStatisticField": "vegetation_info",
+                                "outStatisticFieldName": "count_result",
+                                "statisticType": "count"
+                            }
+                        ],
+                        "maxFeatures": 9999,
+                        "clientSideStatistics": false,
+                        "outFields": [
+                            "*"
+                        ],
+                        "returnDistinctValues": false,
+                        "allowSourceDownload": false,
+                        "allowSummaryDownload": false
+                    }
+                ],
+                "type": "categorySelectorWidget",
+                "category": {
+                    "type": "groupByValues",
+                    "labelOverrides": []
+                },
+                "selection": {
+                    "operator": "is_in",
+                    "allowNone": true,
+                    "noneLabelPlacement": "first",
+                    "type": "multiple"
+                },
+                "displayType": "list",
+                "showFilter": false,
+                "maxSize": "compact"
+            },
+            {
+                "id": "8c2a0334-1f40-468f-aeef-b3c7b1688d39",
+                "name": "Selector (soil_info)",
+                "caption": " ",
+                "showLastUpdate": false,
+                "noDataState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "noFilterState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "events": [
+                    {
+                        "type": "selectionChanged",
+                        "actions": [
+                            {
+                                "targets": [
+                                    {
+                                        "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0#91312012882",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "5c7d375d-5c59-473f-aa94-ffe60077891e#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "abb9e1bc-261c-4a01-aae3-4b992169552b#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    }
+                                ],
+                                "type": "filter"
+                            }
+                        ]
+                    }
+                ],
+                "presentationMode": "dropdown",
+                "placeholderText": "Soil",
+                "showActionButtons": true,
+                "datasets": [
+                    {
+                        "type": "serviceDataset",
+                        "name": "main",
+                        "dataSource": {
+                            "type": "layerDataSource",
+                            "layerId": "91312012882",
+                            "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                        },
+                        "filter": {
+                            "type": "filterGroup",
+                            "condition": "OR",
+                            "rules": [
+                                {
+                                    "type": "filterGroup",
+                                    "condition": "AND",
+                                    "rules": [
+                                        {
+                                            "type": "filterRule",
+                                            "field": {
+                                                "name": "soil_info",
+                                                "type": "string"
+                                            },
+                                            "operator": "not_equal",
+                                            "constraint": {
+                                                "type": "value",
+                                                "value": "N"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "groupByFields": [
+                            "soil_info"
+                        ],
+                        "orderByFields": [
+                            "soil_info ASC"
+                        ],
+                        "statisticDefinitions": [
+                            {
+                                "onStatisticField": "soil_info",
+                                "outStatisticFieldName": "count_result",
+                                "statisticType": "count"
+                            }
+                        ],
+                        "maxFeatures": 50,
+                        "clientSideStatistics": false,
+                        "outFields": [
+                            "*"
+                        ],
+                        "returnDistinctValues": false,
+                        "allowSourceDownload": false,
+                        "allowSummaryDownload": false
+                    }
+                ],
+                "type": "categorySelectorWidget",
+                "category": {
+                    "type": "groupByValues",
+                    "labelOverrides": []
+                },
+                "selection": {
+                    "operator": "is_in",
+                    "allowNone": true,
+                    "noneLabelPlacement": "first",
+                    "type": "multiple"
+                },
+                "displayType": "list",
+                "showFilter": false,
+                "maxSize": "compact"
+            },
+            {
+                "id": "429a3e2b-1bd0-41e4-bfec-05f8530cdf2c",
+                "name": "Selector (Geology)",
+                "caption": " ",
+                "showLastUpdate": false,
+                "noDataState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "noFilterState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "events": [
+                    {
+                        "type": "selectionChanged",
+                        "actions": [
+                            {
+                                "targets": [
+                                    {
+                                        "targetId": "abb9e1bc-261c-4a01-aae3-4b992169552b#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "5c7d375d-5c59-473f-aa94-ffe60077891e#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0#91312012882",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    }
+                                ],
+                                "type": "filter"
+                            }
+                        ]
+                    }
+                ],
+                "presentationMode": "dropdown",
+                "placeholderText": "Geology",
+                "showActionButtons": true,
+                "datasets": [
+                    {
+                        "type": "serviceDataset",
+                        "name": "main",
+                        "dataSource": {
+                            "type": "layerDataSource",
+                            "layerId": "91312012882",
+                            "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                        },
+                        "filter": {
+                            "type": "filterGroup",
+                            "condition": "OR",
+                            "rules": [
+                                {
+                                    "type": "filterGroup",
+                                    "condition": "AND",
+                                    "rules": [
+                                        {
+                                            "type": "filterRule",
+                                            "field": {
+                                                "name": "geol_info",
+                                                "type": "string"
+                                            },
+                                            "operator": "not_equal",
+                                            "constraint": {
+                                                "type": "value",
+                                                "value": "N"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "groupByFields": [
+                            "geol_info"
+                        ],
+                        "orderByFields": [
+                            "geol_info ASC"
+                        ],
+                        "statisticDefinitions": [
+                            {
+                                "onStatisticField": "geol_info",
+                                "outStatisticFieldName": "count_result",
+                                "statisticType": "count"
+                            }
+                        ],
+                        "maxFeatures": 9999,
+                        "clientSideStatistics": false,
+                        "outFields": [
+                            "*"
+                        ],
+                        "returnDistinctValues": false,
+                        "allowSourceDownload": false,
+                        "allowSummaryDownload": false
+                    }
+                ],
+                "type": "categorySelectorWidget",
+                "category": {
+                    "type": "groupByValues",
+                    "labelOverrides": []
+                },
+                "selection": {
+                    "operator": "is_in",
+                    "allowNone": true,
+                    "noneLabelPlacement": "first",
+                    "type": "multiple"
+                },
+                "displayType": "list",
+                "showFilter": false,
+                "maxSize": "compact"
+            },
+            {
+                "id": "194f11ac-5b1d-4b17-ab3a-99fff50f996e",
+                "name": "Selector (Topography)",
+                "caption": " ",
+                "showLastUpdate": false,
+                "noDataState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "noFilterState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "events": [
+                    {
+                        "type": "selectionChanged",
+                        "actions": [
+                            {
+                                "targets": [
+                                    {
+                                        "targetId": "abb9e1bc-261c-4a01-aae3-4b992169552b#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "5c7d375d-5c59-473f-aa94-ffe60077891e#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0#91312012882",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    }
+                                ],
+                                "type": "filter"
+                            }
+                        ]
+                    }
+                ],
+                "presentationMode": "dropdown",
+                "placeholderText": "Topography",
+                "showActionButtons": true,
+                "datasets": [
+                    {
+                        "type": "serviceDataset",
+                        "name": "main",
+                        "dataSource": {
+                            "type": "layerDataSource",
+                            "layerId": "91312012882",
+                            "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                        },
+                        "filter": {
+                            "type": "filterGroup",
+                            "condition": "OR",
+                            "rules": [
+                                {
+                                    "type": "filterGroup",
+                                    "condition": "AND",
+                                    "rules": [
+                                        {
+                                            "type": "filterRule",
+                                            "field": {
+                                                "name": "topo_info",
+                                                "type": "string"
+                                            },
+                                            "operator": "not_equal",
+                                            "constraint": {
+                                                "type": "value",
+                                                "value": "N"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "groupByFields": [
+                            "topo_info"
+                        ],
+                        "orderByFields": [
+                            "topo_info ASC"
+                        ],
+                        "statisticDefinitions": [
+                            {
+                                "onStatisticField": "topo_info",
+                                "outStatisticFieldName": "count_result",
+                                "statisticType": "count"
+                            }
+                        ],
+                        "maxFeatures": 9999,
+                        "clientSideStatistics": false,
+                        "outFields": [
+                            "*"
+                        ],
+                        "returnDistinctValues": false,
+                        "allowSourceDownload": false,
+                        "allowSummaryDownload": false
+                    }
+                ],
+                "type": "categorySelectorWidget",
+                "category": {
+                    "type": "groupByValues",
+                    "labelOverrides": []
+                },
+                "selection": {
+                    "operator": "is_in",
+                    "allowNone": true,
+                    "noneLabelPlacement": "first",
+                    "type": "multiple"
+                },
+                "displayType": "list",
+                "showFilter": false,
+                "maxSize": "compact"
+            },
+            {
+                "id": "ecb76975-08ce-4d28-8d7e-6ed158a67cbf",
+                "name": "Selector (3D description)",
+                "caption": " ",
+                "showLastUpdate": false,
+                "noDataState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "noFilterState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "events": [
+                    {
+                        "type": "selectionChanged",
+                        "actions": [
+                            {
+                                "targets": [
+                                    {
+                                        "targetId": "abb9e1bc-261c-4a01-aae3-4b992169552b#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "5c7d375d-5c59-473f-aa94-ffe60077891e#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0#91312012882",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    }
+                                ],
+                                "type": "filter"
+                            }
+                        ]
+                    }
+                ],
+                "presentationMode": "dropdown",
+                "placeholderText": "3D descriptions",
+                "showActionButtons": true,
+                "datasets": [
+                    {
+                        "type": "serviceDataset",
+                        "name": "main",
+                        "dataSource": {
+                            "type": "layerDataSource",
+                            "layerId": "91312012882",
+                            "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                        },
+                        "filter": {
+                            "type": "filterGroup",
+                            "condition": "OR",
+                            "rules": [
+                                {
+                                    "type": "filterGroup",
+                                    "condition": "AND",
+                                    "rules": [
+                                        {
+                                            "type": "filterRule",
+                                            "field": {
+                                                "name": "three_d_info",
+                                                "type": "string"
+                                            },
+                                            "operator": "not_equal",
+                                            "constraint": {
+                                                "type": "value",
+                                                "value": "N"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "groupByFields": [
+                            "three_d_info"
+                        ],
+                        "orderByFields": [
+                            "three_d_info ASC"
+                        ],
+                        "statisticDefinitions": [
+                            {
+                                "onStatisticField": "three_d_info",
+                                "outStatisticFieldName": "count_result",
+                                "statisticType": "count"
+                            }
+                        ],
+                        "maxFeatures": 9999,
+                        "clientSideStatistics": false,
+                        "outFields": [
+                            "*"
+                        ],
+                        "returnDistinctValues": false,
+                        "allowSourceDownload": false,
+                        "allowSummaryDownload": false
+                    }
+                ],
+                "type": "categorySelectorWidget",
+                "category": {
+                    "type": "groupByValues",
+                    "labelOverrides": []
+                },
+                "selection": {
+                    "operator": "is_in",
+                    "allowNone": true,
+                    "noneLabelPlacement": "first",
+                    "type": "multiple"
+                },
+                "displayType": "list",
+                "showFilter": false,
+                "maxSize": "compact"
+            },
+            {
+                "id": "44befccd-29aa-4cc3-9c06-7084cbd39370",
+                "name": "Selector (Uncertainty expression)",
+                "caption": " ",
+                "showLastUpdate": false,
+                "noDataState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "noFilterState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "events": [
+                    {
+                        "type": "selectionChanged",
+                        "actions": [
+                            {
+                                "targets": [
+                                    {
+                                        "targetId": "abb9e1bc-261c-4a01-aae3-4b992169552b#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "5c7d375d-5c59-473f-aa94-ffe60077891e#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    },
+                                    {
+                                        "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0#91312012882",
+                                        "by": "whereClause",
+                                        "requiresSelection": false
+                                    }
+                                ],
+                                "type": "filter"
+                            }
+                        ]
+                    }
+                ],
+                "presentationMode": "dropdown",
+                "placeholderText": "Uncertainty expressions",
+                "showActionButtons": true,
+                "datasets": [
+                    {
+                        "type": "serviceDataset",
+                        "name": "main",
+                        "dataSource": {
+                            "type": "layerDataSource",
+                            "layerId": "91312012882",
+                            "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                        },
+                        "filter": {
+                            "type": "filterGroup",
+                            "condition": "OR",
+                            "rules": [
+                                {
+                                    "type": "filterGroup",
+                                    "condition": "AND",
+                                    "rules": [
+                                        {
+                                            "type": "filterRule",
+                                            "field": {
+                                                "name": "uncertainty_info",
+                                                "type": "string"
+                                            },
+                                            "operator": "not_equal",
+                                            "constraint": {
+                                                "type": "value",
+                                                "value": "N"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "groupByFields": [
+                            "uncertainty_info"
+                        ],
+                        "orderByFields": [
+                            "uncertainty_info ASC"
+                        ],
+                        "statisticDefinitions": [
+                            {
+                                "onStatisticField": "uncertainty_info",
+                                "outStatisticFieldName": "count_result",
+                                "statisticType": "count"
+                            }
+                        ],
+                        "maxFeatures": 9999,
+                        "clientSideStatistics": false,
+                        "outFields": [
+                            "*"
+                        ],
+                        "returnDistinctValues": false,
+                        "allowSourceDownload": false,
+                        "allowSummaryDownload": false
+                    }
+                ],
+                "type": "categorySelectorWidget",
+                "category": {
+                    "type": "groupByValues",
+                    "labelOverrides": []
+                },
+                "selection": {
+                    "operator": "is_in",
+                    "allowNone": true,
+                    "noneLabelPlacement": "first",
+                    "type": "multiple"
+                },
+                "displayType": "list",
+                "showFilter": false,
+                "maxSize": "compact"
+            },
+            {
+                "id": "991ddea4-e406-4735-a037-0e900b71e528",
+                "name": "Number selector (1)",
+                "caption": "Filter by watershed area (km)",
+                "showLastUpdate": false,
+                "noDataState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "noFilterState": {
+                    "verticalAlignment": "middle",
+                    "showCaption": true,
+                    "showDescription": true
+                },
+                "events": [
+                    {
+                        "type": "selectionChanged",
+                        "actions": [
+                            {
+                                "targets": [
+                                    {
+                                        "targetId": "abb9e1bc-261c-4a01-aae3-4b992169552b#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false,
+                                        "fieldMap": [
+                                            {
+                                                "sourceName": "filterField",
+                                                "targetName": "area_km2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "targetId": "5c7d375d-5c59-473f-aa94-ffe60077891e#main",
+                                        "by": "whereClause",
+                                        "requiresSelection": false,
+                                        "fieldMap": [
+                                            {
+                                                "sourceName": "filterField",
+                                                "targetName": "area_km2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0#91312012882",
+                                        "by": "whereClause",
+                                        "requiresSelection": false,
+                                        "fieldMap": [
+                                            {
+                                                "sourceName": "filterField",
+                                                "targetName": "area_km2"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "type": "filter"
+                            }
+                        ]
+                    }
+                ],
+                "presentationMode": "inline",
+                "showActionButtons": true,
+                "datasets": [],
+                "type": "numericSelectorWidget",
+                "displayType": "spinner",
+                "selectionType": "range",
+                "operator": "equal",
+                "allowNone": false,
+                "firstDefault": 0,
+                "secondDefault": 200000,
+                "increment": 1,
+                "precision": 0,
+                "valueFormat": {
+                    "name": "value",
+                    "prefix": false,
+                    "style": "decimal",
+                    "useGrouping": true
+                },
+                "constraint": {
+                    "type": "fixed",
+                    "lowerLimit": 0,
+                    "upperLimit": 200000
+                }
+            }
+        ],
+        "type": "sidebar",
+        "title": "<div>\n<div>\n<div>\n<div>\n<h4><strong>Guide</strong></h4>\n\n<p>Click a point on the map or a listed item to see a perceptual model.</p>\n\n<p>&nbsp;</p>\n</div>\n</div>\n</div>\n</div>\n\n<h4><strong>Model Filters</strong></h4>\n\n<p>Choose one or more options in each filter dropdown menu to limit the map and list views.&nbsp;<strong> </strong></p>\n\n<p>&nbsp;</p>\n\n<p>Lookup keys for <strong>&quot;Filter by processes (using hashtags/identifiers)&quot;</strong> are the &quot;identifiers&quot; in <a href=\"https://mcmillanhydrology.org/ProcessTaxonomy/ProcessTaxonomyDiagram.html\">the process taxonomy tree</a>.</p>\n"
+    },
+    "widgets": [
+        {
+            "id": "bab5d1b0-8991-4389-9dda-4fe39647ddf0",
+            "name": "Perceptual Models Around the World",
+            "showLastUpdate": false,
+            "noDataState": {
+                "verticalAlignment": "middle",
+                "showCaption": true,
+                "showDescription": true
+            },
+            "noFilterState": {
+                "verticalAlignment": "middle",
+                "showCaption": true,
+                "showDescription": true
+            },
+            "type": "mapWidget",
+            "flashRepeats": 3,
+            "itemId": "4b453ba7e4cf498bb7d58970204a39c8",
+            "mapTools": [
+                {
+                    "type": "basemapGalleryTool"
+                },
+                {
+                    "type": "bookmarksTool"
+                }
+            ],
+            "showNavigation": true,
+            "showPopup": true,
+            "scalebarStyle": "line",
+            "layers": [
+                {
+                    "events": [
+                        {
+                            "type": "selectionChanged",
+                            "actions": [
+                                {
+                                    "targets": [
+                                        {
+                                            "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0",
+                                            "by": "geometry",
+                                            "requiresSelection": false
+                                        }
+                                    ],
+                                    "type": "flashGeometry"
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "layer",
+                    "dataSource": {
+                        "type": "layerDataSource",
+                        "layerId": "111269282058",
+                        "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                    }
+                },
+                {
+                    "events": [
+                        {
+                            "type": "selectionChanged",
+                            "actions": [
+                                {
+                                    "targets": [
+                                        {
+                                            "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0",
+                                            "by": "geometry",
+                                            "requiresSelection": false
+                                        }
+                                    ],
+                                    "type": "flashGeometry"
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "layer",
+                    "dataSource": {
+                        "type": "layerDataSource",
+                        "layerId": "111276130223",
+                        "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                    }
+                },
+                {
+                    "type": "layer",
+                    "dataSource": {
+                        "type": "layerDataSource",
+                        "layerId": "154972172183",
+                        "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "5c7d375d-5c59-473f-aa94-ffe60077891e",
+            "name": "List of selected models",
+            "caption": "<h4><strong>Selected models</strong></h4>\n",
+            "showLastUpdate": false,
+            "noDataState": {
+                "verticalAlignment": "middle",
+                "showCaption": true,
+                "showDescription": true
+            },
+            "noFilterState": {
+                "verticalAlignment": "middle",
+                "showCaption": true,
+                "showDescription": true
+            },
+            "datasets": [
+                {
+                    "type": "serviceDataset",
+                    "name": "main",
+                    "dataSource": {
+                        "type": "layerDataSource",
+                        "layerId": "91312012882",
+                        "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                    },
+                    "groupByFields": [],
+                    "orderByFields": [],
+                    "statisticDefinitions": [],
+                    "maxFeatures": 9999,
+                    "clientSideStatistics": false,
+                    "outFields": [
+                        "*"
+                    ],
+                    "returnDistinctValues": false,
+                    "allowSourceDownload": false,
+                    "allowSummaryDownload": false
+                }
+            ],
+            "events": [
+                {
+                    "type": "selectionChanged",
+                    "actions": [
+                        {
+                            "targets": [
+                                {
+                                    "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0#91312012882",
+                                    "by": "whereClause",
+                                    "requiresSelection": false
+                                }
+                            ],
+                            "type": "filter"
+                        },
+                        {
+                            "targets": [
+                                {
+                                    "targetId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0",
+                                    "by": "geometry",
+                                    "requiresSelection": false
+                                }
+                            ],
+                            "type": "identify"
+                        }
+                    ]
+                }
+            ],
+            "type": "listWidget",
+            "selectionMode": "multi",
+            "iconType": "symbol",
+            "text": "<p>{watershed_name}</p>\n"
+        },
+        {
+            "id": "abb9e1bc-261c-4a01-aae3-4b992169552b",
+            "name": "Indicator of number of selected models",
+            "showLastUpdate": false,
+            "noDataState": {
+                "verticalAlignment": "middle",
+                "showCaption": true,
+                "showDescription": true
+            },
+            "noFilterState": {
+                "verticalAlignment": "middle",
+                "showCaption": true,
+                "showDescription": true
+            },
+            "datasets": [
+                {
+                    "type": "serviceDataset",
+                    "name": "main",
+                    "dataSource": {
+                        "type": "layerDataSource",
+                        "layerId": "91312012882",
+                        "ownerId": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                    },
+                    "groupByFields": [],
+                    "orderByFields": [],
+                    "statisticDefinitions": [
+                        {
+                            "onStatisticField": "ObjectId",
+                            "outStatisticFieldName": "value",
+                            "statisticType": "count"
+                        }
+                    ],
+                    "clientSideStatistics": false,
+                    "outFields": [
+                        "*"
+                    ],
+                    "returnDistinctValues": false,
+                    "allowSourceDownload": false,
+                    "allowSummaryDownload": false
+                }
+            ],
+            "type": "indicatorWidget",
+            "defaultSettings": {
+                "topSection": {
+                    "fontSize": 80,
+                    "textInfo": {
+                        "text": "Number of perceptual models"
+                    }
+                },
+                "middleSection": {
+                    "fontSize": 160,
+                    "textInfo": {
+                        "text": "{value}"
+                    }
+                },
+                "bottomSection": {
+                    "fontSize": 80,
+                    "textInfo": {}
+                }
+            },
+            "comparison": "none",
+            "valueFormat": {
+                "name": "value",
+                "prefix": true,
+                "style": "decimal",
+                "useGrouping": true,
+                "maximumFractionDigits": 1
+            },
+            "percentageFormat": {
+                "name": "percentage",
+                "prefix": false,
+                "style": "percent",
+                "useGrouping": true
+            },
+            "ratioFormat": {
+                "name": "ratio",
+                "prefix": false,
+                "style": "decimal",
+                "useGrouping": true,
+                "maximumFractionDigits": 2
+            },
+            "valueType": "statistic",
+            "noValueState": {
+                "verticalAlignment": "middle",
+                "showCaption": true,
+                "showDescription": true
+            }
+        }
+    ],
+    "settings": {
+        "maxPaginationRecords": 50000,
+        "allowElementResizing": true,
+        "allowElementExpansion": true
+    },
+    "mapOverrides": {
+        "selectionColor": "#ff00f6",
+        "highlightColor": "#ff00ff",
+        "trackedFeatureRadius": 60
+    },
+    "theme": "light",
+    "themeOverrides": {},
+    "numberPrefixOverrides": [
+        {
+            "key": "yotta",
+            "symbol": "Y",
+            "enabled": true
+        },
+        {
+            "key": "zeta",
+            "symbol": "Z",
+            "enabled": true
+        },
+        {
+            "key": "exa",
+            "symbol": "E",
+            "enabled": true
+        },
+        {
+            "key": "peta",
+            "symbol": "P",
+            "enabled": true
+        },
+        {
+            "key": "tera",
+            "symbol": "T",
+            "enabled": true
+        },
+        {
+            "key": "giga",
+            "symbol": "G",
+            "enabled": true
+        },
+        {
+            "key": "mega",
+            "symbol": "M",
+            "enabled": true
+        },
+        {
+            "key": "kilo",
+            "symbol": "k",
+            "enabled": true
+        },
+        {
+            "key": "base",
+            "symbol": "",
+            "enabled": true
+        },
+        {
+            "key": "deci",
+            "symbol": "d",
+            "enabled": false
+        },
+        {
+            "key": "centi",
+            "symbol": "c",
+            "enabled": false
+        },
+        {
+            "key": "milli",
+            "symbol": "m",
+            "enabled": false
+        },
+        {
+            "key": "micro",
+            "symbol": "µ",
+            "enabled": false
+        },
+        {
+            "key": "nano",
+            "symbol": "n",
+            "enabled": false
+        }
+    ],
+    "layout": {
+        "rootElement": {
+            "width": 1,
+            "height": 1,
+            "elements": [
+                {
+                    "width": 0.8106960950764007,
+                    "height": 1,
+                    "type": "itemLayoutElement",
+                    "id": "bab5d1b0-8991-4389-9dda-4fe39647ddf0"
+                },
+                {
+                    "width": 0.1893039049235994,
+                    "height": 1,
+                    "elements": [
+                        {
+                            "width": 1,
+                            "height": 0.8173421262736565,
+                            "type": "itemLayoutElement",
+                            "id": "5c7d375d-5c59-473f-aa94-ffe60077891e"
+                        },
+                        {
+                            "width": 1,
+                            "height": 0.1826578737263433,
+                            "type": "itemLayoutElement",
+                            "id": "abb9e1bc-261c-4a01-aae3-4b992169552b"
+                        }
+                    ],
+                    "type": "stackLayoutElement",
+                    "orientation": "row"
+                }
+            ],
+            "type": "stackLayoutElement",
+            "orientation": "col"
+        }
+    }
+}
