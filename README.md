@@ -1,11 +1,11 @@
 [![Perceptual Model](https://github.com/RY4GIT/perceptual-model-arcgis-public/blob/main/readme/perceptual_model.PNG)](http://www.mcmillanhydrology.org/PerceptualModelDashboard.html)
 # Perceptual Model Database
-This repo contains a released version of the perceptual data model database from https://doi.org/10.1002/hyp.14845
-Visit **[the perceptual model interactive map](http://www.mcmillanhydrology.org/PerceptualModelDashboard.html)**  for the visualization:world_map:
-
 **Perceptual model** is defined as:
 > An expert summary of the watershed and its runoff processes often supported by field observations. Perceptual models are often presented as a schematic figure, although such a figure will necessarily simplify the hydrologist's complex mental model (McMillan et al., 2022)
-Currently our database holds **396 models** in both text and figure format collected from hydrologic literature.
+
+This repo contains a released version of the perceptual data model database from https://doi.org/10.1002/hyp.14845. Currently our database holds **396 models** in both text and figure format collected from hydrologic literature.  
+
+Visit **[the perceptual model interactive map](http://www.mcmillanhydrology.org/PerceptualModelDashboard.html)**  for the visualization :world_map:
 
 ## Installation/Getting Started
 **1. Create your environment**
