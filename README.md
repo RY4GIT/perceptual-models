@@ -1,4 +1,4 @@
-[![alt text](/readme/perceptual_model.PNG?raw=true)](http://www.mcmillanhydrology.org/PerceptualModelDashboard.html)
+[![Perceptual Model](https://github.com/RY4GIT/perceptual-model-arcgis-public/blob/main/readme/perceptual_model.PNG)](http://www.mcmillanhydrology.org/PerceptualModelDashboard.html)
 # Perceptual Model Database
 This repo contains a released version of the perceptual data model database from https://doi.org/10.1002/hyp.14845.
 Visualization is available as **[the perceptual model interactive map](http://www.mcmillanhydrology.org/PerceptualModelDashboard.html)** :world_map:
