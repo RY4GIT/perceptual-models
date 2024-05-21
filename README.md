@@ -1,23 +1,28 @@
 [![Perceptual Model](https://github.com/RY4GIT/perceptual-model-arcgis-public/blob/main/readme/perceptual_model.PNG)](http://www.mcmillanhydrology.org/PerceptualModelDashboard.html)
 # Perceptual Model Database
-This repo contains a released version of the perceptual data model database from https://doi.org/10.1002/hyp.14845.
-Visualization is available as **[the perceptual model interactive map](http://www.mcmillanhydrology.org/PerceptualModelDashboard.html)** :world_map:
+This repo contains a released version of the perceptual data model database from https://doi.org/10.1002/hyp.14845
+Visit **[the perceptual model interactive map](http://www.mcmillanhydrology.org/PerceptualModelDashboard.html)**  for the visualization:world_map:
+
+**Perceptual model** is defined as:
+> An expert summary of the watershed and its runoff processes often supported by field observations. Perceptual models are often presented as a schematic figure, although such a figure will necessarily simplify the hydrologist's complex mental model (McMillan et al., 2022)
+Currently our database holds **396 models** in both text and figure format collected from hydrologic literature.
 
 ## Installation/Getting Started
-1. Create your environment
-Use Conda to create an environment
+**1. Create your environment**
+Use Conda to create an environment  
 ```
 conda env create -f environment.yml
 ```
 Or use the `environment_minimal.yml` if it fails.
 
-2. Building the database
-To build the SQL database based on the raw data in the `data` directory, run the following code in order:
+**2. Building the perceptual model database**  
+`src/` contains scripts to build the PostgreSQL database based on the raw data in the `data` directory.  
+Run the following code in order:
 - `0-debug_excelsheets.ipynb`
 - `1-build_database.ipynb`
 
 ### Create webmap
-`src/webmap` contains example scripts that are used to create [the ArcGIS interactive webmap](http://www.mcmillanhydrology.org/PerceptualModelDashboard.html).
+`src/webmap` contains example scripts that are used to create [the ArcGIS interactive webmap](http://www.mcmillanhydrology.org/PerceptualModelDashboard.html).  
 To initiate the webmap after building the SQL database:
 - Run `init_create_webmap.ipynb` to initiate a webmap
 - Or, run `update_webmap.ipynb` to update an existing webmap
