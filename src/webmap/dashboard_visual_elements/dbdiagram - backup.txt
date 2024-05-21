@@ -1,0 +1,172 @@
+//// -- LEVEL 1
+//// -- The main table
+
+TABLE PerceptualModel {
+    Entry_ID int [pk, increment]
+    ModelType_ID int [NOT NULL] // Figure or text
+    Citation_ID int [NOT NULL]
+    ModelRef text // Referncing Figure # or Section # 
+    ModelDetails text // Referencing Figure URL or text snipped 
+    Location_ID int [NOT NULL]
+    Edit_ID int [NOT NULL]
+    Status boolean // Public or private
+    }
+    
+TABLE ModelType {
+    ModelType_ID int [pk, increment]
+    Name varchar  // Figure or text
+}
+
+//// Flux and stores infomation
+TABLE LinkProcessPercept {
+    Process_ID int
+    Entry_ID int
+    OriginalText text
+      Indexes {
+    (Process_ID, Entry_ID) [pk] 
+  }
+} 
+    
+TABLE Process {
+    Process_ID int [pk, increment]
+    Name text
+    Definition text
+    Hashtag varchar [NOT NULL, UNIQUE] // ?? identifier??
+    ProcessLevel int
+    FunctionType_ID int
+}
+    
+TABLE ProcessAltNames{
+      AltName varchar [pk]
+      Process_ID int
+}
+
+// Is this for distinguishing fluxes vs. storage? Or more descritized function as in taxonomy? 
+TABLE FunctionType {
+    FuncTypeID int [pk, increment]
+    FunctionName varchar [NOT NULL, UNIQUE]
+    }
+
+
+// Dominant Process 
+TABLE DominantProcess{
+      ID int [pk, increment]
+      Entry_ID int [NOT NULL]   // Make this pk later
+      Process_ID int [NOT NULL]
+      Description text
+}
+
+
+//// Spatial and temporal Information
+TABLE LinkPerceptHeterog{
+  Entry_ID int
+  Heterog_ID int
+  OriginalText text
+        Indexes {
+    (Entry_ID, Heterog_ID) [pk]
+  }
+}
+
+TABLE Heterogeneity{
+  Heterog_ID int [pk, increment]
+  Name text // entry for each heterogeneity
+  TypeID int
+}
+
+TABLE HeterogeneityType{
+  TypeID int [pk, increment]
+  Name text // Spatial or tempral
+}
+
+//// Location
+TABLE Location {
+    Location_ID int [pk, increment]
+    pt geom // Lat,lon information
+    // HUC int // Might not need this using PostGIS
+    Name varchar [NOT NULL, UNIQUE]
+    Text varchar
+    }
+
+TABLE HUCWatersheds {
+  Watershed_ID int [pk, increment]
+  Boundary geom // shapefile
+  Name text
+  HUC int
+}
+
+//// Citations 
+TABLE Citations {
+    Citation_ID int [pk, increment]
+    DOI varchar [UNIQUE]
+    OpenAccess boolean
+}
+
+
+// AncillaryInfo
+// Vegatation, Soil type, Geol type, Topographic info, 
+// 3D info, and uncertainties
+
+TABLE AncillaryInfo {
+    InfoType_ID int
+    Entry_ID int
+    ContainsInfo boolean
+    Note text
+      Indexes {
+    (InfoType_ID, Entry_ID) [pk]
+  }
+}     
+    
+TABLE InfoType {
+  InfoType_ID int [pk, increment]
+  InfoName varchar [NOT NULL, UNIQUE]
+}
+
+// UpdateUser_ID
+TABLE EditRecord{
+  Edit_ID int [pk, increment]
+  Type text // Create, Approval, or Edit
+  Date datetime
+  User_ID int [NOT NULL]
+}
+
+TABLE User{
+  User_ID int [pk, increment]
+}
+
+
+//// Relate tables 
+
+// Model type
+Ref: PerceptualModel.ModelType_ID > ModelType.ModelType_ID
+
+// Process (flux and storage)
+Ref: Process.FunctionType_ID > FunctionType.FuncTypeID
+Ref: LinkProcessPercept.Process_ID < Process.Process_ID
+Ref: PerceptualModel.Entry_ID > LinkProcessPercept.Entry_ID
+Ref: ProcessAltNames.Process_ID > Process.Process_ID
+
+// Dominant Process
+Ref: DominantProcess.Entry_ID > PerceptualModel.Entry_ID
+Ref: DominantProcess.Process_ID > Process.Process_ID
+
+// Heterogeneity (spatio-temporal)
+Ref: LinkPerceptHeterog.Entry_ID > PerceptualModel.Entry_ID
+Ref: LinkPerceptHeterog.Heterog_ID > Heterogeneity.Heterog_ID
+Ref: HeterogeneityType.TypeID > Heterogeneity.TypeID
+
+// AncillaryInfo
+Ref: AncillaryInfo.InfoType_ID < InfoType.InfoType_ID
+Ref: PerceptualModel.Entry_ID < AncillaryInfo.Entry_ID
+
+// Location
+Ref: PerceptualModel.Location_ID > Location.Location_ID
+
+// Citation
+Ref: PerceptualModel.Citation_ID > Citations.Citation_ID
+
+// Edits and uers
+Ref: PerceptualModel.Edit_ID > EditRecord.Edit_ID
+Ref: EditRecord.User_ID > User.User_ID
+
+
+

@@ -1,0 +1,164 @@
+﻿process,alternative_names,function,identifier,process_level
+Surface,,,Surf,1
+Evapotranspiration,,Release,Surf.ET,2
+Evaporation,,Release,Surf.ET.Evap,3
+Canopy evaporation,,Release,Surf.ET.Evap.Canopy,4
+Open water evaporation,"Lake evaporation, Pan evaporation",Release,Surf.ET.Evap.Water,4
+Soil surface evaporation,"Soil evaporation, bare ground evaporation",Release,Surf.ET.Evap.Soil,4
+Channel Evaporation,,Release,Surf.ET.Evap.Chan,4
+Transpiration,Root water uptake,Release,Surf.ET.Transp,3
+Riparian transpiration,,Release,Surf.ET.Transp.Rip,4
+Groundwater transpiration,,Release,Surf.ET.Transp.GW,4
+Interception Processes,,Filling of store,Surf.Int,2
+Interception,,Filling of store,Surf.Int.Int,3
+Cloud water interception,"Fog interception, Fog deposition",Filling of store,Surf.Int.Int.Cloud,4
+Canopy Interception,,Filling of store,Surf.Int.Int.Canopy,4
+Forest floor interception,Leaf litter interception,Filling of store,Surf.Int.Int.Forest,4
+Stemflow,,In-catchment flux,Surf.Int.Stem,3
+Throughfall,"Drip, Subcanopy rainfall",In-catchment flux,Surf.Int.Thru,3
+Fog drip,,In-catchment flux,Surf.Int.Thru.Fog,4
+Snow Processes,,,Surf.Snow,2
+Canopy snow interception ,"Snowfall interception, Canopy snow loading",Filling of store,Surf.Snow.Canopy,3
+Canopy snow unloading,,In-catchment flux,Surf.Snow.Unload,3
+Infiltration into snowpack,,Filling of store,Surf.Snow.Inf,3
+Fingering (into snowpack),"Non-steady infiltration, Heterogeneous flow, Preferential infiltration, Drain Channels, Flow channels",Filling of store,Surf.Snow.Inf.Finger,4
+Snow storage,"Snow accumulation, Snow water equivalent, Snow cover",Store,Surf.Snow.Stor,3
+Intermittent snow storage,,"Store, temporary",Surf.Snow.Stor.Interm,4
+Seasonal snow storage,,"Store, temporary",Surf.Snow.Stor.Season,4
+Snowpack aging,Snowpack metamorphism,"Store characteristics, temporary",Surf.Snow.Age,3
+Change in albedo,"Albedo decay, Albedo evolution","Store characteristics, temporary",Surf.Snow.Age.Albedo,4
+Change in grain size,"Destructive/constructive metamorphism, grain growth","Store characteristics, temporary",Surf.Snow.Age.Grain,4
+Compaction,"Settling, Settlement, Increase in density, Freeze-thaw","Store characteristics, temporary",Surf.Snow.Age.Compac,4
+Formation of layers/lenses,Snow stratigraphy,"Store characteristics, temporary",Surf.Snow.Age.Layer,4
+Snow drifting,"Blowing snow, Snow redistribution, Snow transport, Wind transport",In-catchment flux,Surf.Snow.Drift,3
+Saltation,,In-catchment flux,Surf.Snow.Drift.Salt,4
+Suspension,,In-catchment flux,Surf.Snow.Drift.Susp,4
+Snowmelt,"Ablation, Snow cover depletion, SCA depletion",Release from store,Surf.Snow.Melt,3
+Ripening,"Liquid water content, snowpack retention store, isothermal","Store characteristics, temporary",Surf.Snow.Melt.Ripen,4
+Macropore flow within snowpack,,In-store flux,Surf.Snow.Melt.Macro,4
+Basal flow,"Lateral downslope flow, Lateral redistribution",Release from store,Surf.Snow.Melt.Basal,4
+Diurnal cycles in snowmelt,"Diel cycles in snowmelt, Daily cycles in snowmelt",Release from store,Surf.Snow.Melt.Diurn,4
+Refreezing,,"Store characteristics, temporary",Surf.Snow.Refrz,3
+Sublimation,,Release,Surf.Snow.Subl,3
+Canopy sublimation,,Release,Surf.Snow.Subl.Canopy,4
+Sublimation during blowing snow events,,Release,Surf.Snow.Subl.Blow,4
+Glacier Processes,,,Surf.Glac,2
+Glacier storage,,Store,Surf.Glac.Stor,3
+Glacier melt,Ablation,Release from store,Surf.Glac.Melt,3
+Firnmelt,,Release from store,Surf.Glac.Melt.Firn,4
+Glacier icemelt,,Release from store,Surf.Glac.Melt.Ice,4
+Frozen Ground Processes,,,Surf.Frozen,2
+Permafrost storage,,Store,Surf.Frozen.Perm,3
+Inter-hummock channel flow ,Water track,In-catchment flux,Surf.Frozen.Chan,3
+Seasonal soil freeze/thaw,Freezing/thawing active layer,"Store characteristics, temporary",Surf.Frozen.FrzThw,3
+Infiltration into frozen ground,,In-catchment flux,Surf.Frozen.Inf,3
+Overland Flow,,In-catchment flux,Surf.Over,2
+Saturation excess flow,"Dunne runoff, Surface runoff, Direct precipitation onto saturated areas, Saturation from below",In-catchment flux,Surf.Over.SE,3
+Expansion of saturated areas,"Variable contributing area, partial area contribution, variable source area, partial area concept","Store, temporary",Surf.Over.SE.Satexp,4
+SE flow from riparian zone,,In-catchment flux,Surf.Over.SE.Rip,4
+Infiltration excess flow,"Hortonian overland flow, Horton flow, Sheet flow, Saturation from above",In-catchment flux,Surf.Over.IE,3
+IE flow from impermeable areas,,In-catchment flux,Surf.Over.IE.Imp,4
+IE flow from frozen ground,,In-catchment flux,Surf.Over.IE.Frozen,4
+Partial area IE flow,,In-catchment flux,Surf.Over.IE.Part,4
+Rill flow,,In-catchment flux,Surf.Over.Rill,3
+Infiltration Processes,,In-catchment flux,Surf.Inf,2
+Infiltration,,In-catchment flux,Surf.Inf.Inf,3
+Reinfiltration,Run-on infiltration,In-catchment flux,Surf.Inf.Inf.Reinf,4
+Soil surface processes,,"Store characteristics, temporary",Surf.Inf.Soil,3
+Hydrophobicity,"Soil crusting, Surface sealing, Water repellancy","Store characteristics, temporary",Surf.Inf.Soil.Hyphob,4
+Soil swelling/cracking,Shrinking,"Store characteristics, temporary",Surf.Inf.Soil.Swell,4
+Compaction,"Pugging, Trampling","Store characteristics, temporary",Surf.Inf.Soil.Compac,4
+Surface water storage ,,Store,Surf.Water,2
+Detention storage,Surface detention,Store,Surf.Water.Detent,3
+Depression storage,"Vernal pools, Ponding, Surface retention, Dead store",Store,Surf.Water.Depr,3
+Lake storage,,Store,Surf.Water.Lake,3
+Subsurface,,,Sub,1
+Soils ,"Unsaturated zone, Vadose zone",,Sub.Soil,2
+Soil water storage,,Store,Sub.Soil.Store,3
+Tension storage,Retention store,Store,Sub.Soil.Store.Tens,4
+Soil saturation,Waterlogging,Store,Sub.Soil.Store.Satur,4
+Soil stratification,"Impeding layers, Clay lenses, Fragipan, Layering, Confining layers, Stratified soils, Soil stratigraphy, Low permeability horizons","Store characteristics, permanent",Sub.Soil.Store.Layer,4
+Vertical matrix flow,"Darcian flow, diffuse percolation, capillary flow, unsaturated matrix flow, wetting front propagation",In-store flux,Sub.Soil.Matrix,3
+Fingering,"Finger flow, Unstable wetting front, Unstable flow",In-store flux,Sub.Soil.Matrix.Finger,4
+Capillary rise,"Capillary fringe, Tension-saturated zone",In-store flux,Sub.Soil.Matrix.Capil,4
+Vertical macropore flow,"Preferential flow, Bypass flow, Concentrated percolation, Non-capillary pore flow, Non-equilibrium flow, Dual-porosity flow, Dual-permeability flow",In-store flux,Sub.Soil.Macro,3
+Film flow,"Laminar preferential flow, Stokes flow",In-store flux,Sub.Soil.Macro.Film,4
+Plug flow,,In-store flux,Sub.Soil.Macro.Plug,4
+Unsaturated macropore flow,,In-store flux,Sub.Soil.Macro.Unsat,4
+Lateral unsaturated flow,,In-store flux,Sub.Soil.Lat,3
+Funnel Flow,,In-store flux,Sub.Soil.Lat.Funnel,4
+Mixing,,In-store flux,Sub.Soil.Mix,3
+Hydraulic redistribution,"Soil water redistribution by plants, Hydraulic lift",In-store flux,Sub.Soil.Redis,3
+Vertical drainage to groundwater,"Percolation, recharge, vertical redistribution",In-catchment flux,Sub.Soil.Drain,3
+Vapor diffusion,,Release,Sub.Soil.Vapor,3
+Subsurface stormflow,"Lateral flow, interflow, downslope flow, throughflow, subsurface runoff, lateral subsurface flow",In-catchment flux,Sub.SSFlow,2
+Organic layer interflow,Litter layer flow,In-catchment flux,Sub.SSFlow.Organ,3
+Lateral matrix flow,"Transmissivity feedback, translatory flow, subsurface sheet flow (Becker, 2005), lateral redistribution, spatial organization",In-catchment flux,Sub.SSFlow.Matrix,3
+Lateral matrix flow at soil horizons,,In-catchment flux,Sub.SSFlow.Matrix.Horiz,4
+Lateral matrix flow at soil-bedrock interface,,In-catchment flux,Sub.SSFlow.Matrix.Bedrk,4
+Lateral macropore flow,"Pipeflow, Flow in soil pipes, Piping, Bypass flow ",In-catchment flux,Sub.SSFlow.Macro,3
+Lateral macropore flow at soil horizons,Perched lateral flow ,In-catchment flux,Sub.SSFlow.Macro.Horiz,4
+Lateral macropore flow at soil-bedrock interface,Fill-and-spill,In-catchment flux,Sub.SSFlow.Macro.Bedrk,4
+Variable source area - subsurface stormflow,,In-catchment flux,Sub.SSFlow.VSAsub,3
+Topographic convergence,"Lateral concentration of flow, Geomorphic hollows",In-catchment flux,Sub.SSFlow.Conv,3
+Groundwater,"Saturated Zone, Phreatic zone",,Sub.GW,2
+Displacement of groundwater,"Pressure wave translatory flow, Hydraulic displacement, Translatory wave, Old water mobilization, Pre-event water mobilization",In-store flux,Sub.GW.Disp,3
+Groundwater ridging,Water-table ridging,"Store, temporary",Sub.GW.Disp.Ridge,4
+Pistonflow,"Fracture flow, Conduit flow, Fissure flow",In-store flux,Sub.GW.Disp.Piston,4
+Infiltration into bedrock,"Deep seepage, Bedrock recharge, Bedrock permeability, Bedrock transmissivity",Filling of store,Sub.GW.BedInf,3
+Groundwater storage,"Water holding capacity, Retention capacity",Store,Sub.GW.Store,3
+storage-discharge relationship,,"Store characteristics, permanent",Sub.GW.Store.Stdis,4
+Multiple storage reservoirs producing discharge,,"Store characteristics, permanent",Sub.GW.Store.Mult,4
+Total groundwater storage ,,Store,Sub.GW.Store.Total,4
+Dynamic groundwater storage,,Store,Sub.GW.Store.Dynam,4
+Water table rise,"Groundwater accretion, Groundwater mounding","Store, temporary",Sub.GW.Store.Rise,4
+Perched water tables,"Transient water table development, Saturated wedge, Transient saturation","Store, temporary",Sub.GW.Store.Perch,4
+Return Flow,,In-catchment flux,Sub.GW.Ret,3
+Springflow,Spring outflow,In-catchment flux,Sub.GW.Ret.Spr,4
+Exfiltration,"Seepage, Groundwater discharge, Emerging groundwater",In-catchment flux,Sub.GW.Ret.Exf,4
+Groundwater loss,,Release,Sub.GW.Loss,3
+Water loss to deep groundwater,"Deep seepage bypass flow, Deep seepage to groundwater",Release,Sub.GW.Loss.Deep,4
+Water loss across surface watershed boundary,"Interwatershed transfer, Interbasin transfer, Groundwater export, Groundwater subsidy",Release,Sub.GW.Loss.Bound,4
+Stream-groundwater interaction,,In-catchment flux,Sub.GWSW,2
+Gaining stream,"Baseflow, Streamflow gain from groundwater",In-catchment flux,Sub.GWSW.Gain,3
+Losing stream,"Transmission losses, Bed infiltration, River leakage loss, Streamflow loss to groundwater",In-catchment flux,Sub.GWSW.Lose,3
+Connectivity,,In-catchment flux,Sub.GWSW.Conn,3
+Connectivity between hillslopes and channel,Coupling,In-catchment flux,Sub.GWSW.Conn.Hill,4
+Connectivity of lateral preferential flow pathways,,In-catchment flux,Sub.GWSW.Conn.Lat,4
+Channel,,,Chan,1
+Channel interception,Direct channel precipitation,Filling of store,Chan.Int,2
+Channel extension,"Wetted stream length, Channel expansion, Extension of channel network","Store, temporary",Chan.Extend,2
+Channel storage,Channel detention,Store,Chan.Store,2
+Riparian aquifer storage,,Store,Chan.Store.Rip,3
+Bank storage,,Store,Chan.Store.Bank,3
+Channel flow,,Release,Chan.Flow,2
+Perennial flow,,Release,Chan.Flow.Peren,3
+Ephemeral streamflow,,Release,Chan.Flow.Ephem,3
+Intermittent streamflow,Intermittent runoff,Release,Chan.Flow.Interm,3
+Quickflow,"Stormflow, Flashy flow, Direct runoff",Release,Chan.Flow.Quick,3
+Diurnal cycles in streamflow,"Diel cycles in streamflow, Daily cycles in streamflow",Release,Chan.Flow.Diurn,3
+Hyporheic flow,"Interstitial flow, hyporheic exchange flow",Release,Chan.Hypor,2
+Attenuation,"Chanel routing, Time of concentration",Release,Chan.Atten,2
+Tile drain flow,Tile drainages,In-catchment flux,Human.Sub.SSFlow.Tile,4
+Regional groundwater flow,Deep groundwater flow,In-store flux,Sub.GW.Flow.Region,4
+Groundwater flow,Groundwater flow,In-store flux,Sub.GW.Flow,3
+Riparian Groundwater Flow,Flushing (discharge) from riparian zone,In-store flux,Sub.GW.Flow.Rip,4
+Lateral unsaturated bedrock flow,Lateral matrix flow in TCw,In-store flux,Sub.GW.Flow.Unsat,4
+Groundwater flooding,Fill-and-spill,In-catchment flux,Sub.GW.Ret.Flood,4
+Subsurface stormflow from riparian zone,Fast depletion of near channel soil/groundwater,In-catchment flux,Sub.SSFlow.Rip,3
+Water table fall,drainage,"Store, temporary",Sub.GW.Store.Fall,4
+Infiltration into bedrock via preferential flow paths,"groundwater recharge via preferential flow paths, unsaturated flux from fractures to matrix",Filling of store,Sub.GW.BedInf.Macro,4
+Pumped discharge,polder water discharge (pumped back into boezem),Release,Human.Chan.Flow.Pumped,4
+Riparian unsaturated storage,riparian aquifer unsaturated,Store,Chan.Store.Rip.Unsat,4
+Water Table,,Store,Sub.GW.Store.Wtable,4
+Organic Layer,O horizon,Store,Sub.Soil.Store.Organ,4
+Unsaturated bedrock storage,TCw,Store,Sub.GW.Store.Unsat,4
+Bedrock matrix storage,Water table in matrix,Store,Sub.GW.Store.Frac,4
+Bedrock fracture storage,water table in conduits,Store,Sub.GW.Store.Matrix,4
+Bedrock hollows,"bedrock interface (=hollows), bedrock surface microchannels",Store,Sub.GW.Store.BedHol,4
+Soil water storage (1-3),A/B/C soil horizons,Store,Sub.Soil.Store,3
+Regional Groundwater storage,,Store,Sub.GW.Store.Region,4
+Canopy storage,,Store,Surf.Water.Canopy,3
+,,,,
+,,,,
+,,,,

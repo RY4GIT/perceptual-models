@@ -1,0 +1,13 @@
+name: arcgis
+channels: 
+  - conda-forge
+  - esri
+dependencies:
+  - python == 3.9
+  - numpy
+  - matplotlib
+  - jupyter
+  - pandas
+  - requests
+  - ipykernel
+  - arcgis == 2.0.1
