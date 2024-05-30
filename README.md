@@ -3,7 +3,7 @@
 **Perceptual model** is defined as:
 > An expert summary of the watershed and its runoff processes often supported by field observations. Perceptual models are often presented as a schematic figure, although such a figure will necessarily simplify the hydrologist's complex mental model (McMillan et al., 2022)
 
-This repo contains a released version of the perceptual data model database from https://doi.org/10.1002/hyp.14845. Currently our database holds **396 models** in both text and figure format collected from hydrologic literature.  
+This repo contains a released version of the perceptual data model database from https://doi.org/10.1002/hyp.14845. Currently our database holds **400 models** in both text (269) and figure (131) format collected from hydrologic literature.  
 
 Visit **[the perceptual model interactive map](http://www.mcmillanhydrology.org/PerceptualModelDashboard.html)**  for the visualization :world_map:
 
