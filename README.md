@@ -3,11 +3,15 @@
 **Perceptual model** is defined as:
 > An expert summary of the watershed and its runoff processes often supported by field observations. Perceptual models are often presented as a schematic figure, although such a figure will necessarily simplify the hydrologist's complex mental model (McMillan et al., 2022)
 
-This repo contains a released version of the perceptual data model database from https://doi.org/10.1002/hyp.14845. Currently our database holds **400 models** in both text (269) and figure (131) format collected from hydrologic literature.  
+This repo contains a released version of the perceptual data model database, used for the manuscript under review **"Global patterns in observed hydrologic processes (McMillan et al.)"**. Currently our database holds **400 models** in the form of both text (269) and figure (131, including 63 identified in [McMillan et al., 2022](https://doi.org/10.1002/hyp.14845)) collected from hydrologic literature.
 
 Visit **[the perceptual model interactive map](http://www.mcmillanhydrology.org/PerceptualModelDashboard.html)**  for the visualization :world_map:
 
 ## Installation/Getting Started
+If you are only interested in the pre-built database and not the building process, you can download the database backup (SQLdump) from ```data/backup/*.backup```. Alternatively, check csv files under ```data``` directory.
+
+The following explains the code used to build the Postgres database and webmap.
+
 **1. Create your environment**
 Use Conda to create an environment  
 ```
@@ -21,16 +25,17 @@ Run the following code in order:
 - `0-debug_excelsheets.ipynb`
 - `1-build_database.ipynb`
 
+### Query database
+`src/query` contains example scripts that can be used to query the database:
+- `calc_stats.sql` holds query scripts to calculate statistics used in [the paper McMillan et al., 2022](https://doi.org/10.1002/hyp.14845)
+ - Note that analysis for the manuscript "Global patterns in observed hydrologic processes (McMillan et al.)" was implemented using ArcGIS software
+- Use `debug_built_database.sql` to debug the database if the SQL database or code (`1-build_database.ipynb`) are not working as expected
+
 ### Create webmap
 `src/webmap` contains example scripts that are used to create [the ArcGIS interactive webmap](http://www.mcmillanhydrology.org/PerceptualModelDashboard.html).  
 To initiate the webmap after building the SQL database:
 - Run `init_create_webmap.ipynb` to initiate a webmap
 - Or, run `update_webmap.ipynb` to update an existing webmap
-
-### Other utilities
-`src/utils` contains other utilities:
-- `calc_stats.sql` holds query scripts to calculate statistics used in [the paper](https://doi.org/10.1002/hyp.14845)
-- Use `debug_built_database.sql` to debug the database if the SQL database or code (`1-build_database.ipynb`) are not working as expected
 
 ## Resources
 - [The database design (ER diagram)](https://dbdiagram.io/d/63f6895b296d97641d830705)

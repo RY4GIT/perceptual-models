@@ -27,16 +27,6 @@ FROM perceptual_model
 GROUP BY num_spatial_zones
 ORDER BY num_spatial_zones;
 
-/*
- num_spatial_zones | count
--------------------+-------
-                 1 |    51
-                 2 |     7
-                 4 |     2
-                 6 |     2
-                 7 |     1
-*/
-
 -- count by temporal zones
 SELECT id, num_temporal_zones
 FROM perceptual_model
@@ -46,16 +36,6 @@ SELECT num_temporal_zones, COUNT(id)
 FROM perceptual_model
 GROUP BY num_temporal_zones
 ORDER BY num_temporal_zones;
-
-/*
- num_temporal_zones | count
---------------------+-------
-                  1 |    35
-                  2 |    11
-                  3 |     8
-                  4 |     8
-                  5 |     1
-*/
 
 -- count by flux
 
@@ -100,21 +80,6 @@ FROM flux_count
 GROUP BY num_flux_per_model
 ORDER BY num_flux_per_model;
 
-/*
- num_flux_per_model | num_models
---------------------+------------
-                  1 |          1
-                  2 |          5
-                  3 |          9
-                  4 |         17
-                  5 |         10
-                  6 |          7
-                  7 |          7
-                  8 |          4
-                  9 |          1
-*/
-
-
 -- count by stores
 WITH store_count AS 
 (SELECT perceptual_model.id, COUNT(perceptual_model.id) AS num_store_per_model
@@ -154,19 +119,6 @@ SELECT num_store_per_model, COUNT(num_store_per_model) AS num_models
 FROM store_count
 GROUP BY num_store_per_model
 ORDER BY num_store_per_model;
-/*
- num_store_per_model | num_models
----------------------+------------
-                   1 |          2
-                   2 |          2
-                   3 |         11
-                   4 |         20
-                   5 |          8
-                   6 |          6
-                   7 |          4
-                   8 |          2
-                   9 |          3
-*/
 
 -- 2. Count by process
 
@@ -338,11 +290,3 @@ FROM process_table
 	COUNT(identifier)
 	FROM process_table
 	GROUP BY CHAR_LENGTH(identifier) - CHAR_LENGTH(REPLACE(identifier, '.', ''));
-
-/*
- process_level | count
----------------+-------
-             3 |   177
-             2 |   292
-             1 |    85
-             */

@@ -13,7 +13,8 @@
 src/config.ini
 src/cmd.txt
 src/auth.json
-src/utils/hide_copyright_info.ipynb
+src/query/hide_copyright_info.ipynb
+data/for_arcgis_dashboard/*
 
 ## VS CODE
 .vscode
