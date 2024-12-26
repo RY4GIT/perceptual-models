@@ -1,28 +1,28 @@
-﻿name,country,lat,lon,area_km2
+name,country,lat,lon,area_km2
 "3 watersheds (R, C, B) in Upper Fourmile Branch, South Carolina",United States,33.270199,-81.634021,0.45
 A catchment in Cofre de Perote volcano,Mexico,19.488651,-97.042749,0.264
 Aglar watershed,India,30.50904,78.145593,
 Asker River,Norway,59.884667,10.396556,0.085
-"Aguima catchment, Upper Oueme",Benin,9.13603,1.983488,30
-Aiuaba Experimental Basin,Brazil,-6.7,-40.291667,12
-"Allt a’ Mharcaidh catchment, Scotland",United Kingdom,57.117868,-3.850469,10
+"Aguima catchment, Upper Oueme",Benin,9.13603,1.983488,30.0
+Aiuaba Experimental Basin,Brazil,-6.7,-40.291667,12.0
+"Allt a’ Mharcaidh catchment, Scotland",United Kingdom,57.117868,-3.850469,10.0
 Alptal watershed,Switzerland,47.046106,8.707209,5.2
 "Archer Creek watershed, New York",United States,43.993389,-74.245337,1.35
 Arnás catchment,Spain,42.63864,-0.586388,2.84
 Asu,Brazil,-2.602594,-60.205436,6.58
-"Athabasca Oil Sands region, Alberta",Canada,57.136749,-111.610485,132000
-"Augusta Creek, Michigan",United States,42.3533734,-85.3538894,95
-"Baker Creek watershed, Yellowknife Northwest Territories",Canada,62.513333,-114.409722,165
+"Athabasca Oil Sands region, Alberta",Canada,57.136749,-111.610485,132000.0
+"Augusta Creek, Michigan",United States,42.3533734,-85.3538894,95.0
+"Baker Creek watershed, Yellowknife Northwest Territories",Canada,62.513333,-114.409722,165.0
 "Moss subwatershed, Baker Creek watershed, Yellowknife Northwest Territories",Canada,62.6,-114.43,9.3
 4 sub-basins of Banabuiú watershed,Brazil,-5.138346,-38.125227,
 "Baratz catchment, Sardinia",Italy,40.695773,8.235656,7.4
 "Bisley II, Luquillo",Puerto Rico,18.314571,-65.746199,0.064
 "Bisley, Luquillo",Puerto Rico,18.313855,-65.747149,0.35
 "Blacklands Experimental Watershed, USDA-ARS Grassland, Soil and Water Research Laboratory watershed, Riesel, Texas",United States,31.475,-96.879444,0.534
-Bohlmicke,Germany,51.079496,7.893308,1
+Bohlmicke,Germany,51.079496,7.893308,1.0
 Brays Flat Creek Catchment,Australia,-33.061083,148.607861,7.4
 Brixenbach,Austria,47.445798,12.263909,9.3
-"Brugga experimental basin, Black Forest Mountains",Germany,47.936414,7.95185,40
+"Brugga experimental basin, Black Forest Mountains",Germany,47.936414,7.95185,40.0
 "Bruntland Burn catchment, Scotland",United Kingdom,57.044,-3.120762,3.2
 "Buck Creek, New York",United States,43.743942,-74.722189,3.1
 Bukit Tarek,Malaysia,3.534456,101.585777,0.328
@@ -30,18 +30,18 @@ Bukit Timah,Singapore,1.357325,103.773201,0.05
 "Bull and Providence catchments, Kings River Experimental Watersheds, Southern Sierra Nevada, California",United States,37.054156,-119.199208,2.28
 Burabay National Nature Park,Kazakhstan,53.071286,70.276545,
 "C1-3, Caribou-Poker, Alaska",United States,65.149177,-147.552332,41.7
-"C2, Caribou-Poker Creek, Alaska",United States,65.15816789,-147.608076,5.2
+"C2, Caribou-Poker Creek, Alaska",United States,65.1581678852435,-147.608076042822,5.2
 "Can Vila, Vallcebre, Pyrenees",Spain,42.198308,1.8233,0.56
 "Caribou-Poker, Alaska",United States,65.150151,-147.483064,5.2
 "Casper Creek, California",United States,39.36127,-123.735395,4.73
-Catfish Creek watershed,Canada,50.618408,-96.374154,642
+Catfish Creek watershed,Canada,50.618408,-96.374154,642.0
 "Catskill Mountains, New York",United States,41.962233,-74.457294,
 "CB1, Coos Bay, Oregon",United States,43.4641861,-124.1124162,0.00086
 "Cerro Dantas, Quebrada Grande",Costa Rica,10.09076,-84.044873,3.9
-"Chezine Catchment, Nantes",France,47.22118,-1.578756,29
+"Chezine Catchment, Nantes",France,47.22118,-1.578756,29.0
 Chicamo watershed,Spain,38.192772,-1.05045,0.001
-Ciciriello,Italy,40.197935,15.538867,3
-"Coet Dan, Brittany",France,47.976,-2.812313,12
+Ciciriello,Italy,40.197935,15.538867,3.0
+"Coet Dan, Brittany",France,47.976,-2.812313,12.0
 Colpach,Luxembourg,49.768451,5.819306,19.4
 Conrad Trail Stream,Panama,9.150606,-79.85719,0.402
 "Conventwald Basin, Black Forest Mountains",Germany,48.019727,7.964992,0.093
@@ -51,43 +51,43 @@ Conrad Trail Stream,Panama,9.150606,-79.85719,0.402
 "CP-VI, Cathedral Peak experimental research catchment",South Africa,-28.991593,29.273321,0.645
 Cumaru catchment,Brazil,-1.1972,-47.563305,0.34
 "Deir Ibzei, Judean Mountains",West Bank and Israel,31.916256,35.120536,0.00018
-Demnitzer Millcreek catchment,Germany,52.343881,14.188978,66
+Demnitzer Millcreek catchment,Germany,52.343881,14.188978,66.0
 Dornbirnerach,Austria,47.400463,9.752799,51.1
 Drainage basin of Lake Calado,Brazil,-3.2816792,-60.5544941,0.234
 "Dry Lake, Routt National Forest, Colorado",United States,40.533389,-106.780999,0.2
-Duerreychbachtal,Germany,48.755259,8.47529,7
+Duerreychbachtal,Germany,48.755259,8.47529,7.0
 "Duke Forest Research Watershed, North Carolina",United States,36.036517,-79.078714,0.033
-"Subwatershed of Duke Forest Research Watershed, North Carolina",United States,36.04875696,-79.01276152,0.484
+"Subwatershed of Duke Forest Research Watershed, North Carolina",United States,36.0487569552248,-79.0127615205723,0.484
 Eel River CZO - Angelo,United States,39.7295997,-123.6439073,19.72
 Eel River CZO - Sagehorn,United States,39.5754,-123.4642,21.1
-El Morro catchment,Argentina,-33.74,-65.36,1334
+El Morro catchment,Argentina,-33.74,-65.36,1334.0
 "Ene-Chilala watershed, Birr River, Blue Nile Basin",Ethiopia,10.86666667,37.42777778,4.14
 Experim. Lakes Area,Canada,49.674375,-93.769929,0.0719
 "Falling Rock, Robinson Forest, Kentucky",United States,37.476044,-83.137935,0.88
 "Fernow, West Virginia",United States,39.053973,-79.687043,0.387
-"Feshie, Scotland",United Kingdom,57.114327,-3.897661,231
+"Feshie, Scotland",United Kingdom,57.114327,-3.897661,231.0
 Font del Regàs catchment,Spain,41.823924,2.460242,15.5
 "Forest catchment, Fazenda Vitoria, Para state",Brazil,-2.967706,-47.395282,0.0033
 "Forest watershed, Rancho Grande",Brazil,-10.3,-62.86666667,0.0137
-Forquilha watershed,Brazil,-5.204174,-39.467518,220
+Forquilha watershed,Brazil,-5.204174,-39.467518,220.0
 "Fraser, Colorado",United States,39.890786,-105.877298,8.03
 Freiberger Mulde,Germany,50.796944,13.442222,0.06
 "Fudoji Experimental Watershed, Tanakami Mountain",Japan,34.919493,135.982348,0.001
 Fuirosos catchment,Spain,41.717246,2.574405,16.5
 "Fukuroyamasawa Experimental Watershed B, Inokawa Watershed",Japan,35.21126,140.10345,5.07
 Gail,Austria,46.696818,12.783634,146.1
-"Girnock, Scotland",United Kingdom,57.046496,-3.115812,31
+"Girnock, Scotland",United Kingdom,57.046496,-3.115812,31.0
 "GL4 catchment, Green Lakes Valley, Colorado",United States,40.05,-105.5833333,2.25
 Glendhu experimental catchments,New Zealand,-45.83168,169.736148,3.1
-"Goodwater Creek, Missouri",United States,39.30443,-92.052369,73
-"Granger Basin, Wolf Creek, Yukon",Canada,60.551197,-135.197751,6
+"Goodwater Creek, Missouri",United States,39.30443,-92.052369,73.0
+"Granger Basin, Wolf Creek, Yukon",Canada,60.551197,-135.197751,6.0
 "Grasslands Research Station, Marondera",Zimbabwe,-18.167186,31.474148,3.33
 "H.J. Andrews, Oregon",United States,44.2120146,-122.2448757,0.61
 "Hakyuchi catchment, Tokyo",Japan,35.641086,139.476413,0.0052
 "Harra catchment, Babati",Tanzania,-4.353044,35.75521,2.8
 Haute-Mentue catchment,Switzerland,46.646553,6.707254,12.5
 "Havikpak Creek, Northwest Territories",Canada,68.313157,-133.518472,16.4
-"Heart CZO, Ganga Basin",India,26.532936,80.16921,22
+"Heart CZO, Ganga Basin",India,26.532936,80.16921,22.0
 "Hemuqiao experimental watershed, Hangzhou",China,30.580371,119.801479,1.35
 "Hilly Ecosystem Research Station, Taihang",China,37.894618,114.23606,0.6
 Hinotani-ike watershed,Japan,34.35,136.4166667,0.048
@@ -98,138 +98,138 @@ Huewelerbach catchments,Luxembourg,49.71836111,5.905694444,2.7
 "Hulu catchment, Tibet",China,38.267868,99.879794,23.1
 Hupsel Brook catchment,Netherlands,52.0642,6.6289,6.5
 "Hut Creek, Broken River",New Zealand,-43.149452,171.714223,0.217
-Iguatu experimental watershed,Brazil,-6.398743215,-39.25807799,0.028
+Iguatu experimental watershed,Brazil,-6.39874321495199,-39.2580779922363,0.028
 "IML CZO, Upper Sangamon River Basin, Allerton Trust Farm",United States,40.025,-88.6606,0.1
 Ina Basin,Japan,35.675675,137.852921,0.063
-Instituto Arruda Botelho cerrado,Brazil,-22.18527,-47.87719,3
+Instituto Arruda Botelho cerrado,Brazil,-22.18527,-47.87719,3.0
 "Irondequoit Creek basin, New York",United States,43.009364,-77.470593,101.5
 Jalovecký Creek catchment,Slovakia,49.16235,19.64627,22.2
 Jaruco,Cuba,23.100368,-82.010872,43.5
 Jatunhuaycu Experimental Observatory,Ecuador,-0.4884968,-78.2398049,32.6
 "Jianpinggou catchment, Longxi River watershed",China,31.090963,103.565726,3.5
-Jonkershoek catchment,South Africa,-33.941637,18.854465,100
-Kaap catchment,South Africa,-25.542513,31.317074,1640
+Jonkershoek catchment,South Africa,-33.941637,18.854465,100.0
+Kaap catchment,South Africa,-25.542513,31.317074,1640.0
 Kangaslampi,Finland,63.85777778,28.96138889,
 "Kerrien catchment, Brittany",France,47.945492,-4.119702,0.105
-"Kervidy-Naizin catchment, Brittany",France,48.007093,-2.83103,5
-Kiryu Experimental Watershed,Japan,34.96734839,135.9938693,0.0599
+"Kervidy-Naizin catchment, Brittany",France,48.007093,-2.83103,5.0
+Kiryu Experimental Watershed,Japan,34.9673483909385,135.993869284295,0.0599
 "Konza Prairie LTER, Kansas",United States,39.103509,-96.603547,34.87
-Kostroma Catchment,Russia,57.79868,40.908041,16000
+Kostroma Catchment,Russia,57.79868,40.908041,16000.0
 Krycklan,Sweden,64.2513012,19.77790006,
-"La Copita Research Area, Texas Agricultural Experiment Station",United States,27.65861415,-98.20936045,11
+"La Copita Research Area, Texas Agricultural Experiment Station",United States,27.6586141513461,-98.2093604519953,11.0
 La Cuenca,Peru,-10.2167,-75.08333333,0.0075
 Lajeado Ferreira,Brazil,-28.8244564,-52.2076059,1.23
 Längentalbach,Austria,47.207224,11.004357,9.2
-"Langtang catchment, Himalaya",Nepal,28.16295,85.3451531,585
+"Langtang catchment, Himalaya",Nepal,28.16295,85.3451531,585.0
 "Lemon catchment, Collie River, Western Australia",Australia,-33.295928,116.407166,3.44
-"Little River Experimental Watershed, Georgia",United States,31.481667,-83.584167,334
+"Little River Experimental Watershed, Georgia",United States,31.481667,-83.584167,334.0
 "Ll1 control catchment, Llyn Brianne, Wales",United Kingdom,52.162389,-3.743008,0.015
 "Loch Vale watershed, Colorado",United States,40.29301,-105.65489,6.6
-"Logan River watershed, Utah",United States,41.74355,-111.7839806,1372
+"Logan River watershed, Utah",United States,41.74355,-111.7839806,1372.0
 "Longxi River Experimental Watershed, northwest of Chengdu city, Sichuan",China,31.0622043,103.5561277,78.3
 Los Alamos National Laboratory's Environmental Research Park,United States,35.864355,-106.340552,0.00087
 Lutz Creek,Panama,9.1625164,-79.838061,0.0937
 M’b ́e experimental watershed,Cote d'Ivoire,7.848708,-5.089102,1.3
 Macieira de Alcôba,Portugal,40.621916,-8.275586,0.001875
-Mae Sa Noi watershed,Thailand,18.8782328,98.9005881,7
+Mae Sa Noi watershed,Thailand,18.8782328,98.9005881,7.0
 "Maesnant Experimental Catchment, Wales",United Kingdom,52.472889,-3.800556,0.54
 Mahurangi catchments,New Zealand,-36.405485,174.6529354,46.65
-Maimai catchments,New Zealand,-42.08251362,171.7824286,0.0826
+Maimai catchments,New Zealand,-42.0825136248733,171.782428604996,0.0826
 Maimai M8 experimental catchment,New Zealand,-42.0834508,171.7976594,0.038
 "Mākaha valley, O‘ahu, Hawai‘i",United States,21.476346,-158.219081,23.9
 "Malalcahuello catchment, Andes",Chile,-38.461631,-71.561285,6.26
-"Manners Creek (tributary site), Fort Simpson, North West Territories",Canada,61.75197,-121.173148,300
-"Marcell, Minesota",United States,47.51540541,-93.47181798,0.097
+"Manners Creek (tributary site), Fort Simpson, North West Territories",Canada,61.75197,-121.173148,300.0
+"Marcell, Minesota",United States,47.5154054108769,-93.4718179809872,0.097
 Marmot Creek Experimental Watershed,Canada,50.94939,-115.1509,9.4
 "Marshall Gulch, Santa Catalina Mountains CZO",United States,32.427351,-110.757857,1.55
-"Martinelli catchment, Green Lakes Valley, Colorado",United States,40.05122696,-105.5953856,0.08
+"Martinelli catchment, Green Lakes Valley, Colorado",United States,40.0512269619899,-105.595385561149,0.08
 "MAT subcatchment, Agua Salud Watershed",Panama,9.206666667,-79.75166667,0.095
 Matsi spring fen,Estonia,57.667088,26.68532,0.045
-McMurdo Dry Valleys,Antarctica,-77.440369,162.728838,22700
+McMurdo Dry Valleys,Antarctica,-77.440369,162.728838,22700.0
 "Meadowbrook Creek, New York",United States,43.02926,-76.066094,11.3
 Migina catchment,Rwanda,-2.8033929,29.7007655,257.4
 "Mogot Experimental Watershed, Siberia",Russia,55.5794142,124.8078083,30.8
-Mt. Hermon Range,"Israel, Syria, and Lebanon",33.181875,35.616014,783
+Mt. Hermon Range,"Israel, Syria, and Lebanon",33.181875,35.616014,783.0
 "Mukeng catchment, Anhui",China,29.6673,117.9868,0.21
-Mule Hole experimental watershed,India,11.67568549,76.41628699,4.1
+Mule Hole experimental watershed,India,11.6756854931565,76.4162869909131,4.1
 "Mulian watershed, Huanjiang county, Guangxi",China,24.73995833,108.3243472,1.46
 "Nanxiaohe watershed, Qingyang, Gansu",China,35.7039568,107.5538725,0.87
 "Narrogin, Murray River",Australia,-32.962861,116.923541,0.012
-"Neversink River watershed, Catskills, New York",United States,41.824031,-74.639741,166
+"Neversink River watershed, Catskills, New York",United States,41.824031,-74.639741,166.0
 "Nio Basin, Oe region",Japan,35.46724,135.16996,0.073
-Noordplas Polder,Netherlands,52.08853797,4.51423715,37
+Noordplas Polder,Netherlands,52.0885379733693,4.51423715029642,37.0
 "North Fork Caspar Creek watershed, California",United States,39.36127,-123.735395,4.7
 "North Watershed, Jornada Basin, New Mexico",United States,32.513141,-106.793912,0.000775
 Nsimi watershed,Cameroon,3.20391,11.81497,0.6
 Nucice experimental catchment,Czech Republic,49.963675,14.870345,0.531
 "Oak Ridge Reservation, Tennessee",United States,35.92744,-84.40983,90.6
-Obere Brachtpe,Germany,50.98983333,7.751833333,2.6
-"Oxisol and Ultisol watersheds, Juruena",Brazil,-10.47721195,-58.46834309,0.0194
+Obere Brachtpe,Germany,50.9898333333,7.75183333333,2.6
+"Oxisol and Ultisol watersheds, Juruena",Brazil,-10.4772119501725,-58.4683430941739,0.0194
 Pallas catchment,Finland,67.9999983,24.2019916,4.42
 "Panola Mountain Research Watershed, SW subcatchment, Georgia",United States,33.629931,-84.173271,0.1
 Panola Mountain Research Watershed,United States,33.631898,-84.172333,0.41
 "PAS subcatchment, Agua Salud Watershed",Panama,9.2258075,-79.7613574,0.426
 "PC1-08 Plastic Lake Basin, Ontario",Canada,45.17776,-78.827227,0.0322
-"Pedler Creek, Willunga Basin",Australia,-35.21434682,138.5393283,1.36
-Peñalara catchment,Spain,40.83699583,-3.950986803,107
+"Pedler Creek, Willunga Basin",Australia,-35.2143468232134,138.539328258992,1.36
+Peñalara catchment,Spain,40.8369958336896,-3.95098680329967,107.0
 Perschling,Austria,48.19903,15.7591,55.3
-Peyto Glacier Research Basin,Canada,51.68685865,-116.5371596,23.6
+Peyto Glacier Research Basin,Canada,51.6868586495151,-116.537159558601,23.6
 "Point Peter Brook watershed, New York",United States,42.43992,-78.92289,6.96
 Pukemanga Stream,New Zealand,-37.78434,175.06937,0.03
 Purple soil watershed,China,31.2691626,105.4734375,0.1
-Quillow catchment,Germany,53.30624959,13.81285455,138
-Rancho Grande,Brazil,-10.30363797,-62.85854571,0.0137
-"RBF subcatchment, Lang Lang River catchment",Australia,-38.34202671,145.8575457,0.0137
+Quillow catchment,Germany,53.3062495921233,13.8128545545853,138.0
+Rancho Grande,Brazil,-10.3036379748933,-62.8585457102554,0.0137
+"RBF subcatchment, Lang Lang River catchment",Australia,-38.3420267131874,145.857545724009,0.0137
 "Ratier catchment, Yzeron Basin",France,45.758193,4.7530899,19.8
 "Ressi catchment, Posina River",Italy,45.78878,11.26283,0.0196
 "Retiro headwater catchment, Peri Lake",Brazil,-27.720731,-48.507981,0.0265
-Ribeirão da Onça,Brazil,-22.152308,-47.918706,65
+Ribeirão da Onça,Brazil,-22.152308,-47.918706,65.0
 Rietholzbach Catchment,Switzerland,47.379784,8.993452,0.94
-"Río Puerco, New Mexico",United States,34.41027778,-106.8544444,16000
-Rio San Francisco,Ecuador,-3.9706284,-79.0702247,75
+"Río Puerco, New Mexico",United States,34.41027778,-106.8544444,16000.0
+Rio San Francisco,Ecuador,-3.9706284,-79.0702247,75.0
 Rio Vauz Basin,Italy,46.4897806,11.8443499,1.9
-River Vène,France,43.470472,3.688997,67
-"Rompeviento and El Nancite, Nicaragua",Nicaragua,11.108522,-85.761414,46
+River Vène,France,43.470472,3.688997,67.0
+"Rompeviento and El Nancite, Nicaragua",Nicaragua,11.108522,-85.761414,46.0
 Ruggbach,Austria,47.534675,9.741199,7.2
 Ruisseau des Eaux Volees,Canada,47.27062,-71.13975,3.9
-"Russell Creek Research Watershed, Vancouver Island",Canada,50.32817274,-126.3853799,32
+"Russell Creek Research Watershed, Vancouver Island",Canada,50.3281727405344,-126.385379852193,32.0
 "Saddle Catchment, Niwot Ridge LTER, Boulder, Colorado",United States,40.04903177,-105.5923174,0.3
-Salar de Atacama,Chile,-23.5,-68.25,17000
+Salar de Atacama,Chile,-23.5,-68.25,17000.0
 "Salmon Brook, Western Australia",Australia,-33.41285,115.98325,0.82
 "Samoylov Island, Lena River Delta, Siberia",Russia,72.38005,126.48336,0.6
-"San Diego River watershed, California",United States,32.76504998,-117.1686449,1005
+"San Diego River watershed, California",United States,32.76504998,-117.1686449,1005.0
 "San Dimas, California",United States,34.2,-117.78,0.25
 "San Lorencito headwater, Alberto Manuel Brenes Biological Reserve",Costa Rica,10.21882695,-84.59706275,3.2
 "Sand Mountain Research and Experimental Station, DeKalb County, Alabama",United States,34.287859,-85.968737,0.0012
-Santa Elena Ophiolite,Costa Rica,10.853098,-85.788389,250
+Santa Elena Ophiolite,Costa Rica,10.853098,-85.788389,250.0
 "Santee, South Carolina",United States,33.14430296,-79.79044336,1.6
-"SAYR, Yellow River",China,34.5763406,98.3262367,20930
-"SB2 subcatchment, Susannah Brook, Western Australia",Australia,-31.82226158,116.1300175,24
+"SAYR, Yellow River",China,34.5763406,98.3262367,20930.0
+"SB2 subcatchment, Susannah Brook, Western Australia",Australia,-31.8222615780916,116.130017505526,24.0
 "Schafertal catchment, Harz mountains",Germany,51.654444,11.052778,1.44
-Scott Creek Catchment,Australia,-35.100723,138.6720257,27
-"Scotty Creek Catchment, Liard River, Northwest Territories",Canada,61.433726,-121.5466237,152
+Scott Creek Catchment,Australia,-35.100723,138.6720257,27.0
+"Scotty Creek Catchment, Liard River, Northwest Territories",Canada,61.433726,-121.5466237,152.0
 "SEC subcatchment, Agua Salud Watershed",Panama,9.2137,-79.73135,0.061
-Susquehanna Shale Hills CZO - Cole Farm,United States,40.62994005,-77.94546604,0.65
+Susquehanna Shale Hills CZO - Cole Farm,United States,40.6299400486659,-77.9454660367329,0.65
 Susquehanna Shale Hills CZO - Garner Run,United States,40.692454,-77.927731,1.34
 Susquehanna Shale Hills CZO - Shale Hills,United States,40.664849,-77.907246,0.08
 "Shelter Creek, New York",United States,41.970108,-74.514415,1.61
 "Slapton Wood catchment, Slapton Ley",United Kingdom,50.299712,-3.650863,0.93
-"Sleepers River, Vermont",United States,44.435335,-72.038429,111
+"Sleepers River, Vermont",United States,44.435335,-72.038429,111.0
 "Slithero Clough, Ripponden, Yorkshire",United Kingdom,53.641522,-1.9881003,0.043
 "Smith Island, British Columbia",Canada,54.182364,-130.211628,0.33
 South Creek,Australia,-17.338744,145.981974,0.257
-St. Denis National Wildlife Area,Canada,52.033333,-106.1,4
+St. Denis National Wildlife Area,Canada,52.033333,-106.1,4.0
 "Strengbach catchment, Vosges",France,48.211569,7.206213,0.8
-Sumatra,Indonesia,-2.257333,102.172417,42690
+Sumatra,Indonesia,-2.257333,102.172417,42690.0
 Sustenpass,Switzerland,46.722596,8.43046,
-Tanguro,Brazil,-13.05768299,-52.42308528,800
+Tanguro,Brazil,-13.0576829880709,-52.4230852804823,800.0
 "Tannhausen catchment, Sechta creek",Germany,48.979267,10.354399,2.3
 Tapado catchment,Chile,-30.151476,-69.886846,9.23
 Tarfala catchment,Sweden,67.89888889,18.6325,21.7
 Tatsunokuchi-yama Experimental Forest,Japan,34.7091457,133.9642885,0.399
-TG Halli watershed,India,12.9704671,77.3395812,1447
-Thames at Kingston,United Kingdom,51.415005,-0.308869,9948
-The terra firme forest of Maraca Island,Brazil,3.359857,-61.361527,10
+TG Halli watershed,India,12.9704671,77.3395812,1447.0
+Thames at Kingston,United Kingdom,51.415005,-0.308869,9948.0
+The terra firme forest of Maraca Island,Brazil,3.359857,-61.361527,10.0
 "Toinotani watershed, Kyoto University Forest, Ashiu",Japan,35.32709,135.73981,0.0064
 "Triple G, Spyhill, and Stauffer Catchments, Northern Prairie Region",Canada,51.4225976,-112.6184955,
 "Troy, Idaho",United States,46.75,-116.75,0.017
@@ -244,17 +244,17 @@ Upper Jhelum watershed,Western Himalayas,34.208723,74.355157,15.4
 "Upper Ramuschaka Watershed, Peru",Peru,-13.432769,-72.269199,2.12
 "Upper Sheep Creek, Reynolds Creek, Idaho",United States,43.123,-116.725,0.26
 Urucuia Aquifer system,Brazil,-12.022621,-44.925076,
-"Valles Caldera, Jemez, New Mexico",United States,35.8291983,-106.6425054,349
+"Valles Caldera, Jemez, New Mexico",United States,35.8291983,-106.6425054,349.0
 "W2,8,9; H.J. Andrews, Oregon",United States,44.211737,-122.2444067,1.01
 "W8S5 catchment, Danum Valley, Borneo Island",Malaysia,4.960845,117.797006,0.0132
 "Walker branch watershed, Tennessee",United States,35.954272,-84.277347,0.384
-"Walnut Gulch Experimental Watershed, Arizona",United States,31.7206782,-110.1857809,149
+"Walnut Gulch Experimental Watershed, Arizona",United States,31.7206782,-110.1857809,149.0
 "Watershed 1, Hubbard Brook Experimental Forest, New Hampshire",United States,43.9522415,-71.7259832,0.118
 "Watershed N04D, Konza Prairie LTER, Kansas",United States,39.087397,-96.584597,1.2
 "Watershed R, Fourmile Creek, Sandhills, North Carolina",United States,33.270199,-81.634021,0.45
 "WE-38, Mahantango Creek Experimental Catchment, Pennsylvania",United States,40.705633,-76.587769,7.2
 Weatherley catchment,South Africa,-31.092361,28.334145,1.5
-Weierbach catchment,Luxembourg,49.827738,5.797505,384
+Weierbach catchment,Luxembourg,49.827738,5.797505,384.0
 "Weißeritz River, Ore Mountains",Germany,50.727826,13.701324,0.46
 "West Twin Creek, Nome Creek Watershed, Alaska",United States,65.34017,-146.915463,4.1
 Wimitzbach,Austria,46.7668981,14.3763791,106.5
@@ -267,7 +267,7 @@ Wollefsbach,Luxembourg,49.764224,5.974399,4.5
 "WS3, Hubbard Brook Experimental Forest, New Hampshire",United States,43.9548921,-71.7222582,0.42
 "Yakou catchment, Qinghai",China,38.002778,100.258333,1.4
 "Yayama Experimental Catchment, Kyushu",Japan,33.50307,130.64761,0.0298
-"Yucca Mountain, Nevada",United States,36.8200469,-116.3997208,45
+"Yucca Mountain, Nevada",United States,36.8200469,-116.3997208,45.0
 Zachariashoek research catchments,South Africa,-33.82871,19.03745,9.7
 "Zastler catchment, Black Forest",Germany,47.923711,7.985931,18.4
 Subcatchment of Zhurucay Ecohydrological Observatory,Ecuador,-3.079411,-79.233237,3.28

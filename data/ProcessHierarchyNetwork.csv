@@ -1,4 +1,4 @@
-﻿process,alternative_names,function,identifier,process_level
+process,alternative_names,function,identifier,process_level
 Surface,,,Surf,1
 Evapotranspiration,,Release,Surf.ET,2
 Evaporation,,Release,Surf.ET.Evap,3
@@ -159,6 +159,3 @@ Bedrock hollows,"bedrock interface (=hollows), bedrock surface microchannels",St
 Soil water storage (1-3),A/B/C soil horizons,Store,Sub.Soil.Store,3
 Regional Groundwater storage,,Store,Sub.GW.Store.Region,4
 Canopy storage,,Store,Surf.Water.Canopy,3
-,,,,
-,,,,
-,,,,
