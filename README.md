@@ -37,6 +37,11 @@ To initiate the webmap after building the SQL database:
 - Run `init_create_webmap.ipynb` to initiate a webmap
 - Or, run `update_webmap.ipynb` to update an existing webmap
 
+**3. Create Figures**
+`Analysis_src/` contains scripts to recreate  the figures for McMillan et al., 2025, Nature Water.
+`Analysis_data/` contains accompanying data files
+
+
 ## Resources
 - [The database design (ER diagram)](https://dbdiagram.io/d/63f6895b296d97641d830705)
 - [The hydrologic process taxonomy used in the analysis](http://mcmillanhydrology.org/ProcessTaxonomy/ProcessTaxonomyDiagram.html)
