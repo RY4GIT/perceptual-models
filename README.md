@@ -37,7 +37,7 @@ To initiate the webmap after building the SQL database:
 - Run `init_create_webmap.ipynb` to initiate a webmap
 - Or, run `update_webmap.ipynb` to update an existing webmap
 
-**3. Create Figures**
+### Create Figures
 `Analysis_src/` contains scripts to recreate  the figures for McMillan et al., 2025, Nature Water.
 `Analysis_data/` contains accompanying data files
 
